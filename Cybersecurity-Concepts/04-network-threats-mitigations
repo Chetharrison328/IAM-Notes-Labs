@@ -1,1 +1,127 @@
+# Module 4: Describe Network-Based Threats and Mitigations
 
+---
+
+##   What Is a Network?
+
+A **network** is a grouping of interconnected physical components that allow devices to communicate with each other.
+
+###   Key Network Devices
+
+- **Switch** – Enables multiple devices to communicate on the same network.
+- **Router** – Connects different networks together and manages traffic between them.
+
+---
+
+##   Types of Networks
+
+| Network Type      | Description |
+|--------------------|-------------|
+| **Private Network** | Requires authentication and authorization to access devices/resources. |
+| **Public Network**  | Open to any user (e.g., the Internet). |
+
+---
+
+##   Ways to Connect to a Network
+
+- **Wired (Ethernet) Connection**
+- **Wireless (Wi-Fi) Connection**
+- **Bluetooth Connection**
+
+---
+
+##   Client-Server Topology
+
+In this model, a **client** is a device or application that makes requests, and a **server** is the system that fulfills them.
+
+---
+
+##   How Data Moves Around a Network
+
+Network communication is governed by the **TCP/IP protocol suite**.
+
+###   Data Packets
+
+All data is broken into uniform chunks called **packets** (or datagrams) for transmission.
+
+###   IP Address
+
+Each device is assigned a unique IP address, like `127.100.0.1`.
+
+- **IPv4** – Most commonly used (e.g., `192.168.1.1`)
+- **IPv6** – Newer standard to accommodate more devices
+
+###   DNS (Domain Name System)
+
+Translates user-friendly domain names (like `google.com`) into IP addresses.
+
+###   Routing
+
+If a device’s IP address is outside your network, a **router** sends the traffic to the right external network.
+
+---
+
+##   Network Security Threats
+
+### Common Network Attacks
+
+| Attack Type                     | Description |
+|----------------------------------|-------------|
+| **Man-in-the-Middle (MitM)**    | An attacker secretly intercepts or alters communication between two parties. |
+| **Distributed Denial of Service (DDoS)** | Overwhelms a target system with traffic to disrupt its normal operation. |
+
+---
+
+### DNS-Based Attacks
+
+| Attack Type           | Description |
+|------------------------|-------------|
+| **DNS Poisoning**      | Corrupts the DNS cache so users are redirected to malicious websites. |
+
+---
+
+### Wireless Attacks
+
+| Attack Type              | Description |
+|---------------------------|-------------|
+| **Wardriving**            | Driving around with a device to find insecure wireless networks. |
+| **Spoofed Wi-Fi Hotspots**| Attacker sets up a fake Wi-Fi access point to steal data or credentials. |
+
+---
+
+### Bluetooth-Based Attacks
+
+| Attack Type    | Description |
+|-----------------|-------------|
+| **Bluejacking** | Sends unsolicited messages to nearby Bluetooth-enabled devices. |
+
+---
+
+##   Network Protection Techniques
+
+###   Firewall
+
+Acts as a **barrier** between your internal network and the Internet. Filters traffic based on security rules.
+
+###   Antivirus
+
+Runs in the background to **scan** and **block** malicious files and software entering the system.
+
+###   Network Access Control (NAC)
+
+A policy-based solution that controls access to the network by enforcing identity and security rules.
+
+###  Network Segmentation
+
+Splits a network into **isolated segments** to minimize the impact of potential breaches.
+
+###   VPN (Virtual Private Network)
+
+Encrypts and anonymizes internet traffic to ensure **private and secure** communication over public networks.
+
+###   Wireless Network Encryption
+
+- **WPA2** is the current Wi-Fi security standard.
+- Uses **AES (Advanced Encryption Standard)** to secure wireless traffic.
+
+---
