@@ -1,1 +1,155 @@
+# Module 1: Basic Cybersecurity Threats, Attacks, and Mitigations
 
+## Table of Contents
+- [Cybersecurity Overview](#cybersecurity-overview)
+- [Cyberattacks](#cyberattacks)
+- [Cybercriminals](#cybercriminals)
+- [Threat Landscape](#threat-landscape)
+- [Attack Vectors](#attack-vectors)
+- [Security and Data Breaches](#security-and-data-breaches)
+- [Malware: Types and Components](#malware-types-and-components)
+- [Mitigation Strategies](#mitigation-strategies)
+
+---
+
+## Cybersecurity Overview
+
+**Cybersecurity** refers to the technologies, processes, and training used to protect systems, networks, programs, and data from unauthorized access, damage, or attack.
+
+### Goals of Cybersecurity (CIA Triad)
+- **Confidentiality** – Prevent unauthorized data access.
+- **Integrity** – Ensure data accuracy and trustworthiness.
+- **Availability** – Ensure systems and data are accessible when needed.
+
+---
+
+## Cyberattacks
+
+A `cyberattack` is an attempt to gain illegal or unauthorized access to a system, network, or data in order to cause damage or disruption.
+
+### Attack Methods
+Attackers may use:
+- People (social engineering)
+- Devices (computers, phones)
+- Applications and messages
+- System processes
+
+### Attack Objectives
+- Encrypt or lock data (ransom)
+- Destroy or delete critical files
+- Steal sensitive information
+- Publicly leak private data
+- Interrupt vital operations
+
+---
+
+## Cybercriminals
+
+A `cybercriminal` can be:
+- An individual or group
+- A criminal-for-hire organization
+- A government-sponsored entity
+
+> Note: Cybercriminals often operate globally and anonymously.
+
+---
+
+## Threat Landscape
+
+The `threat landscape` refers to all potential vulnerabilities and entry points for cyberattacks within an organization’s digital ecosystem.
+
+### Examples of Threat Surfaces
+- Email and social media accounts
+- Mobile devices
+- Cloud services
+- Technology infrastructure
+- Employees and insiders
+
+---
+
+## Attack Vectors
+
+An `attack vector` is a specific path or method used to gain access to a system or network.
+
+### Common Vectors
+- **Email** (phishing)
+- **Removable media** (USB drives)
+- **Web browsers**
+- **Cloud-based applications**
+- **Internal actors** (malicious or negligent insiders)
+
+---
+
+## Security and Data Breaches
+
+### Security Breach
+
+A `security breach` occurs when an attacker gains unauthorized access to a system, service, or network.
+
+#### Examples:
+- **Social engineering** – Manipulating users to reveal credentials or provide access.
+- **Browser attacks** – Fake websites trick users into entering sensitive data.
+- **Password attacks** – Brute-force or credential-stuffing attempts on login forms.
+
+### Data Breach
+
+A `data breach` happens when attackers access or steal confidential information.
+
+> Breaches are often the goal of a security exploit, as data holds critical value to businesses and individuals.
+
+---
+
+## Malware: Types and Components
+
+`Malware` (malicious software) is code designed to disrupt, damage, or gain unauthorized access to a system.
+
+### Core Components:
+- **Propagation mechanism** – How malware spreads
+- **Payload** – What the malware does
+
+### Propagation Techniques
+- **Virus** – Requires user action (e.g., opening infected file)
+- **Worm** – Self-spreading without user interaction
+- **Trojan** – Disguised as legitimate software; performs malicious actions behind the scenes
+
+### Payload Examples
+- **Ransomware** – Locks data/systems until ransom is paid
+- **Spyware** – Monitors user activity to steal info
+- **Backdoors** – Bypass security to maintain access
+- **Botnets** – Convert devices into part of a remotely controlled network
+
+---
+
+## Mitigation Strategies
+
+A `mitigation strategy` is a proactive measure used to prevent, detect, or reduce the impact of cyberattacks.
+
+### Multi-Factor Authentication (MFA)
+Requires users to provide two or more forms of verification:
+- Something you know (password)
+- Something you have (phone or token)
+- Something you are (biometric)
+
+### Browser Security Controls
+Organizations can:
+- Prevent unauthorized extensions
+- Allow only approved browsers
+- Block known-malicious websites
+- Enforce updates
+
+### User Education
+Train users to:
+- Identify phishing or suspicious messages
+- Avoid giving out personal info
+- Lock unattended devices
+- Follow data handling policies
+
+### Threat Intelligence
+Use systems that collect and analyze:
+- Security logs
+- Known vulnerabilities
+- Past attack patterns
+
+This helps inform better threat detection and incident response.
+
+---
