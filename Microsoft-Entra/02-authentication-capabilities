@@ -1,1 +1,78 @@
+# Module 2: Describe the Authentication Capabilities of Microsoft Entra ID
 
+---
+
+##   What Is Authentication?
+
+Authentication is the process of **proving who you are** before accessing a system or resource.
+
+Microsoft Entra ID offers multiple secure authentication methods to verify identities in the cloud.
+
+---
+
+##   Core Authentication Methods
+
+### 1. **Password-based Authentication**
+- Traditional login with username + password
+- Weakest method; often used with MFA for added security
+
+### 2. **Multi-Factor Authentication (MFA)**
+- Requires **two or more** of the following:
+  - Something you know (password/PIN)
+  - Something you have (smartphone/token)
+  - Something you are (biometrics)
+- Supported MFA options:
+  - Microsoft Authenticator app
+  - SMS/Voice call
+  - Hardware tokens
+  - FIDO2 security keys
+
+### 3. **Passwordless Authentication**
+- Removes passwords from the equation
+- Uses:
+  - Windows Hello for Business
+  - FIDO2 security keys
+  - Authenticator app push approvals
+
+>   Passwordless = more secure and user-friendly
+
+---
+
+##   Single Sign-On (SSO)
+
+- Sign in once to access multiple apps without repeated logins
+- Reduces friction and boosts productivity
+- Works with:
+  - Microsoft 365
+  - SaaS apps (e.g., Salesforce, Dropbox)
+  - On-prem apps via Azure AD Application Proxy
+
+---
+
+##   Smart Authentication Features
+
+### Conditional Access
+- Enforces **policy-based access control**
+- Factors: user location, device compliance, risk level, app type, etc.
+- Example: Block access if user signs in from unknown country
+
+### Identity Protection
+- Uses risk-based intelligence to detect threats:
+  - Atypical travel
+  - Leaked credentials
+  - Sign-ins from malware-infected devices
+- Automatically triggers MFA or blocks access
+
+---
+
+##   Entra ID Tools That Support Authentication
+
+- **Microsoft Authenticator App** – Push notifications, biometric logins
+- **Security Defaults** – Preconfigured policies (MFA for all users)
+- **Custom Policies** – Tailored rules via Conditional Access
+
+---
+
+##   Real-World Example
+
+> A healthcare provider uses Conditional Access to enforce MFA for all users accessing patient data from outside the hospital network. It uses passwordless authentication via Windows Hello and blocks access from risky sign-ins detected by Identity Protection.
