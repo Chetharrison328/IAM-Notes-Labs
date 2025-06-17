@@ -1,1 +1,80 @@
+# Module 6: Describe Application-Based Threats and How to Protect Against Them
 
+---
+
+##  What Are Applications?
+
+###   What Is Software?
+
+Software is a collection of commands (code) that instruct a computer or device to perform specific tasks.
+
+There are two major types of software:
+
+###   System Software
+
+- First software to run when the device powers on
+- Controls or facilitates hardware and system processes
+- Runs independently in the background (e.g., OS kernel)
+
+###   Application Software
+
+- Designed for a specific user or task
+- Requires system software to function
+- Installed and managed by the user
+- Provides direct interaction with the user
+- Example: browsers, word processors, mobile apps
+
+---
+
+##   Threat Landscape of Applications
+
+###   Applications from Untrustworthy Origins
+
+- Apps downloaded outside of verified app stores may contain malware
+- Not all app stores screen apps as thoroughly as Apple or Google Play
+
+###   Inherent Vulnerabilities in Applications
+
+| Vulnerability        | Description |
+|----------------------|-------------|
+| **Open-source libraries** | Public code is accessible and modifiable—while many contribute for good, some exploit vulnerabilities to steal data |
+| **Zero-day vulnerabilities** | Flaws that are unknown to the application owner but actively exploited by attackers before patches are released |
+
+---
+
+###   Browser-Based Threats
+
+| Threat Type          | Description |
+|----------------------|-------------|
+| **Cookie-based attacks** | Cookies are plaintext files containing user credentials, preferences, etc. A common threat is **session replay** (reusing valid session data) |
+| **Typosquatting**     | Attackers register misspelled versions of popular domains to trick users into visiting malicious sites disguised as legitimate ones |
+
+---
+
+##   How to Protect Your Applications
+
+###   Patching Promptly
+
+- Application updates include security patches to fix newly discovered vulnerabilities
+- Cybercriminals exploit even small windows of opportunity between discovery and patch application
+
+###   Application Configuration
+
+- Default settings often enable broad access and may include default passwords or accounts
+- Always **review and secure default configurations** immediately after installation
+
+###   Privacy Settings
+
+- Clear your history, location data, and usage patterns regularly
+- Example: Delete saved routes from navigation apps after use
+
+###   Cookie Management
+
+- Regularly clear browser cookies to reduce risk of session hijacking or data leaks
+
+###   Use Verified Applications
+
+- Avoid third-party or lookalike apps designed to imitate legitimate software
+- Only download from **trusted** and **verified** sources (official stores, reputable vendors)
+
+---
