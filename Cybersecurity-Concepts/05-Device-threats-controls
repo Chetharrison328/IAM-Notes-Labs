@@ -1,1 +1,64 @@
+# Module 5: Describe Device-Based Threats and Security Controls
 
+---
+
+##   What Your Device Knows About You
+
+Modern devices capture, store, and share sensitive information about us to stay connected and provide services.
+
+###   Examples of Devices
+
+- USB drives
+- Printers
+- Smart TVs
+- Wi-Fi hotspots
+- Car dashboards
+- Smartphones, tablets, laptops
+
+These devices often connect to other systems, making them both powerful tools and potential risk surfaces.
+
+---
+
+##   How Devices Become Cybersecurity Threats
+
+###   Devices as Threat Vectors
+
+| Device Type      | Potential Threat |
+|------------------|------------------|
+| **Phone/Laptop/Tablet** | Downloading malicious apps |
+| **USB Drive**           | Malware hidden in files or firmware |
+| **Smart Assistants**    | Always listening or recording without your knowledge |
+
+---
+
+###   Device Vulnerabilities
+
+| Vulnerability                       | Description |
+|------------------------------------|-------------|
+| **Outdated Software**              | Missing critical security patches |
+| **Weak Authentication**            | No PIN, password, or biometric protection |
+| **Jailbroken Devices**             | Removed OS restrictions leave devices exposed |
+| **Untrusted Wi-Fi Hotspots**       | Public networks can be easily compromised by attackers |
+
+Example: Connecting to airport Wi-Fi without protection makes your device an easy target.
+
+---
+
+##   How to Mitigate Device-Related Threats
+
+###   Device Hardening Techniques
+
+- Keep all devices **up to date** with the latest security patches.
+- **Turn off** unused features or devices (e.g., Bluetooth, voice assistants).
+- Enable OS-level **security features**.
+- Require **PINs**, **passwords**, or **biometrics** (fingerprint, face scan).
+
+###   Encryption
+
+- Encrypt data at rest so that if the device is stolen, the information remains unintelligible without a key.
+
+###   Limit Application and Device Access
+
+Example: Leaving your device unlocked can allow unauthorized access to your accounts or apps.
+
+---
