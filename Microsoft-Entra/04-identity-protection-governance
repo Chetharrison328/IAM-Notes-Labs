@@ -1,1 +1,102 @@
+# Module 4: Describe the Identity Protection and Governance Capabilities of Microsoft Entra
 
+---
+
+##   What Is Identity Protection?
+
+**Microsoft Entra ID Protection** detects potential vulnerabilities and signs of compromise using **risk-based policies and insights**.
+
+### Identity Protection Capabilities:
+- **Risk Detection**: Identifies risky sign-ins or risky users
+- **Risk-Based Conditional Access**: Blocks or challenges access based on risk
+- **Risk Investigation & Remediation**: Enables security teams to take action on detected risks
+
+---
+
+##   Risk Types
+
+| Risk Type     | Description                                               |
+|---------------|-----------------------------------------------------------|
+| Sign-in Risk  | Likelihood that a specific sign-in attempt is compromised |
+| User Risk     | Likelihood that a user's identity has been compromised    |
+
+### Examples of Detected Risk:
+- Atypical travel (login from two far-apart locations within short time)
+- Anonymous IP addresses
+- Malware-linked IPs
+- Unfamiliar sign-in properties
+
+---
+
+##   Risk Policies
+
+You can create policies that automatically respond to detected risks.
+
+| Policy Type         | Example Action                             |
+|---------------------|--------------------------------------------|
+| User Risk Policy    | Force password reset                       |
+| Sign-in Risk Policy | Require MFA or block access                |
+
+> Example: If a sign-in appears risky, challenge the user with MFA. If the user risk is high, block access and prompt for password change.
+
+---
+
+##   What Is Identity Governance?
+
+**Identity Governance** ensures the **right people have the right access to the right resources** at the right time — and only for as long as needed.
+
+### Identity Governance Features:
+1. **Access Reviews**
+2. **Entitlement Management**
+3. **Privileged Identity Management (PIM)**
+
+---
+
+##   Access Reviews
+
+Access reviews help organizations:
+- Validate whether users still need access
+- Automatically **remove outdated or unnecessary access**
+- Stay compliant with industry standards
+
+> Example: Review external guests' access to Teams every 90 days.
+
+---
+
+##   Entitlement Management (Deep Dive)
+
+Entitlement Management provides:
+- **Access packages** (bundled access rights to apps, groups, SharePoint sites)
+- **Approval workflows** for requesting access
+- **Automated expiration/removal**
+
+> Use case: Contractors request an access package that expires automatically after 30 days.
+
+---
+
+##   PIM (Revisited)
+
+PIM supports governance by:
+- Limiting the duration of elevated access
+- Requiring approval and justification for role activation
+- Logging and auditing all privileged role use
+
+---
+
+##   Summary Table
+
+| Capability                  | Purpose                                              |
+|----------------------------|------------------------------------------------------|
+| Identity Protection         | Detect and mitigate identity-related threats        |
+| Sign-in/User Risk           | Analyze login behavior and identity integrity       |
+| Risk-Based Policies         | Automate blocking or challenging risky actions      |
+| Identity Governance         | Manage and review access across users and systems   |
+| Access Reviews              | Ensure ongoing access is necessary and appropriate  |
+| Entitlement Management      | Streamline access to resources with packages        |
+| Privileged Identity Mgmt    | Secure and govern admin role assignments            |
+
+---
+
+##   Real-World Example
+
+> A healthcare org uses Entra Identity Protection to detect risky sign-ins from unfamiliar IPs and requires MFA for those attempts. PIM restricts admin rights to just-in-time windows, and access reviews are set up to audit internal and external collaborators monthly.
