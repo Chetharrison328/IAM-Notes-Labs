@@ -1,1 +1,52 @@
+# Module 1: Describe Security & Compliance Concepts
 
+---
+
+##   What is Security?
+
+Security is about protecting your digital assets, devices, services, and data against cyber threats. This includes attacks from individuals, criminal organizations, or even nation-states.
+
+Key Goals of Security:
+
+- **Confidentiality** – Keeping data private and protected from unauthorized access
+- **Integrity** – Ensuring data is accurate and unaltered
+- **Availability** – Making sure services and data are accessible when needed
+
+---
+
+##   What is Compliance?
+
+Compliance refers to adhering to laws, regulations, standards, and organizational policies that define how data should be managed, stored, and protected.
+
+Examples of regulations and standards:
+- **GDPR** – General Data Protection Regulation (EU)
+- **HIPAA** – Health Insurance Portability and Accountability Act (US healthcare)
+- **NIST** – National Institute of Standards and Technology (US guidelines)
+- **ISO/IEC 27001** – International information security standard
+
+---
+
+##   What's the Difference Between Security and Compliance?
+
+| Concept     | Focus                                   | Purpose                          |
+|-------------|------------------------------------------|----------------------------------|
+| **Security**   | Protection of data, systems, and users     | Prevent breaches and cyberattacks |
+| **Compliance** | Following laws, regulations, and policies | Avoid legal and regulatory issues |
+
+Note: **You can be compliant but not secure** if you're following rules but not actively defending your systems.
+
+---
+
+##   Why Are These Concepts Important?
+
+- Attacks are growing in complexity and volume
+- Organizations must secure data to maintain trust and avoid penalties
+- A strong security and compliance program supports both business continuity and customer confidence
+
+---
+
+##   Security and Compliance in Practice
+
+- Implementing **firewalls, encryption, and access controls** to secure systems
+- Establishing **policies and training** to comply with regulations
+- Monitoring, auditing, and responding to incidents and vulnerabilities
