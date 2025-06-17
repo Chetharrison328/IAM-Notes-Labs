@@ -1,1 +1,91 @@
+# Module 3: Describe Access Management Capabilities of Microsoft Entra
 
+---
+
+##   What Is Access Management?
+
+Access management is the process of **controlling who can access what**, **under what conditions**, and **for how long** — after a user is authenticated.
+
+Microsoft Entra ID manages access using key principles like:
+- **Authorization**
+- **Role-based access control (RBAC)**
+- **Privileged Identity Management (PIM)**
+
+---
+
+##   Authorization vs. Authentication
+
+| Concept         | Definition                                   |
+|----------------|----------------------------------------------|
+| Authentication | Proving **who** you are                      |
+| Authorization  | Deciding **what** you can access             |
+
+Example:
+- You **log in** (authentication)
+- The system checks **what files or apps** you can use (authorization)
+
+---
+
+##   Role-Based Access Control (RBAC)
+
+RBAC allows access to be assigned **based on a role** rather than to individuals.
+
+### Key Components:
+- **Security Principal** – A user, group, or service principal
+- **Role Definition** – A set of permissions (e.g., Reader, Contributor, Owner)
+- **Scope** – The boundary where access applies (e.g., subscription, resource group)
+
+> Example: Assign the "Reader" role to a user for a specific Azure resource group.
+
+RBAC helps enforce the principle of **least privilege**.
+
+---
+
+##   Privileged Identity Management (PIM)
+
+PIM helps manage, monitor, and control **elevated access** to critical resources.
+
+### PIM Capabilities:
+- **Just-In-Time (JIT)** role activation
+- **Approval workflows** for privileged roles
+- **Time-bound** access with automatic expiration
+- **Audit logs** and access reviews
+
+> Example: A help desk worker can request temporary admin rights only when needed and must provide a reason and get approval.
+
+---
+
+##   Conditional Access (Revisited)
+
+Conditional Access combines signals (user, location, risk level) to:
+- **Allow**, **block**, or **require MFA** for access
+- Create **granular rules** for app or resource-level access
+
+> Example: Allow access to Teams only if the device is compliant with Intune policy.
+
+---
+
+##   Entitlement Management
+
+Entitlement management allows admins to define **access packages**:
+- Pre-configured sets of permissions (apps, groups, SharePoint sites)
+- Useful for **automated onboarding**, **offboarding**, and **collaboration**
+
+Users can request access and go through an **approval workflow**.
+
+---
+
+##   Real-World Example
+
+> A financial services company uses Entra RBAC to restrict who can modify billing resources. It assigns temporary Contributor rights using PIM and requires approval. Conditional Access ensures only compliant devices can reach sensitive applications.
+
+---
+
+##   Summary
+
+| Feature                     | Purpose                                      |
+|----------------------------|----------------------------------------------|
+| RBAC                       | Assign access by role and scope              |
+| PIM                        | Control elevated privileges with JIT access  |
+| Conditional Access         | Enforce real-time access decisions           |
+| Entitlement Management     | Automate access lifecycle                    |
