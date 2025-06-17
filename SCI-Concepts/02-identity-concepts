@@ -1,1 +1,53 @@
+# Module 2: Describe Identity Concepts
 
+---
+
+##   What Is Identity?
+
+In cybersecurity, **identity** is the foundation of controlling access. It represents a unique person, device, application, or service that can be authenticated and authorized to use resources.
+
+### Identity Types:
+
+- **User identity** – Represents a person (e.g., employee, customer)
+- **Device identity** – Tied to a physical or virtual device (e.g., laptops, mobile phones)
+- **Workload identity** – Refers to applications and services running in cloud environments
+- **Non-human identity (NHI)** – Bots, scripts, AI agents, and other automated processes
+
+---
+
+##   Why Identity Matters
+
+- Identity is the **first line of defense** in protecting digital resources
+- Everything starts with verifying “Who is making this request?”
+- Modern environments rely on **identity-based access** instead of traditional perimeter defense
+
+---
+
+##   Identity Providers (IdPs)
+
+An **Identity Provider (IdP)** is a service that manages, stores, and authenticates digital identities.
+
+Common IdPs:
+- **Azure Active Directory (Azure AD / Entra ID)**
+- **Google Identity**
+- **Okta**
+- **Ping Identity**
+
+---
+
+##   Identity Lifecycle
+
+The **identity lifecycle** refers to the stages an identity goes through during its time in a system:
+
+1. **Provisioning** – Creating a digital identity (e.g., onboarding an employee)
+2. **Managing** – Updating roles, resetting passwords, enabling MFA, etc.
+3. **Deprovisioning** – Disabling or deleting access when no longer needed (e.g., offboarding)
+
+---
+
+##   Identity Concepts in Practice
+
+- Implementing **Single Sign-On (SSO)** for centralized authentication
+- Enforcing **Multi-Factor Authentication (MFA)** for stronger login security
+- Using **Role-Based Access Control (RBAC)** to define what users can and can’t do
+- Applying **conditional access** based on location, risk, device, and user behavior
