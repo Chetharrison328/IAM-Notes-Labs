@@ -1,1 +1,73 @@
+# Module 3: Describe Authentication & Authorization in Cybersecurity
 
+---
+
+##   What Is Authentication?
+
+**Authentication** is the process of verifying that a person is who they claim to be.
+
+**Example:**  
+When a user logs into a system with a username and password, they are being authenticated.
+
+###   Authentication Methods
+
+Authentication methods are typically based on:
+
+- **Something You Know**  
+  - Passwords  
+  - PINs  
+  - Security Questions  
+
+- **Something You Have**  
+  - Identity Cards  
+  - USB Keys  
+  - Computers  
+  - Smartphones  
+
+- **Something You Are**  
+  - Fingerprint  
+  - Facial Recognition  
+  - Retinal Scan  
+  - Other Biometric ID  
+
+>   **Note:** Biometric identification uses physical characteristics that uniquely identify an individual.
+
+---
+
+##   Single-Factor vs. Multi-Factor Authentication
+
+| Type                         | Description |
+|------------------------------|-------------|
+| **Single-Factor Authentication (SFA)** | Uses **only one** form of authentication. <br>🔹 *Example: password only* |
+| **Multi-Factor Authentication (MFA)**  | Uses **two or more** different factors. <br>🔹 *Example: PIN (know), phone (have), face scan (are)* |
+
+---
+
+##   Authentication-Based Attacks
+
+Common attacks targeting authentication systems:
+
+| Attack Type             | Description |
+|--------------------------|-------------|
+| **Brute Force**          | Automated guessing of many password combinations. |
+| **Dictionary Attack**    | Attempts logins using a list of common words or passwords. |
+| **Credential Stuffing**  | Uses leaked credentials from other breaches to try logging in. |
+| **Keylogging**           | Records keystrokes to steal information (usually via malware). |
+| **Social Engineering**   | Manipulates people into revealing confidential data (includes phishing, pretexting, baiting). |
+
+---
+
+##   What Is Authorization?
+
+**Authorization** determines what a user can access or do *after* they’ve been authenticated.
+
+###   Authorization Techniques
+
+| Technique                 | Description |
+|---------------------------|-------------|
+| **Conditional Access**     | Access is based on specific conditions like location, device status, or risk level. |
+| **Least Privileged Access**| Grants only the minimum access necessary for a user's role. |
+| **Lateral Movement**       | After compromising one account, an attacker explores the system to gain further access. |
+| **Zero Trust Security**    | Based on "never trust, always verify." Built on 3 core principles: <br>• Verify explicitly<br>• Use least privileged access<br>• Assume breach |
+
+---
