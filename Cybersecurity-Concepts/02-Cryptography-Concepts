@@ -1,1 +1,137 @@
+# Module 2: Describe Concepts of Cryptography
 
+## Table of Contents
+- [What is Cryptography?](#what-is-cryptography)
+- [Encryption in Cybersecurity](#encryption-in-cybersecurity)
+  - [Symmetric Encryption](#symmetric-encryption)
+  - [Asymmetric Encryption](#asymmetric-encryption)
+  - [Common Encryption Standards](#common-encryption-standards)
+  - [Encryption Use Cases](#encryption-use-cases)
+- [Hashing and Digital Signatures](#hashing-and-digital-signatures)
+  - [What is Hashing?](#what-is-hashing)
+  - [What is a Digital Signature?](#what-is-a-digital-signature)
+  - [Digital Signing with Asymmetric Keys](#digital-signing-with-asymmetric-keys)
+- [Digital Certificates](#digital-certificates)
+  - [Why We Need Digital Certificates](#why-we-need-digital-certificates)
+
+---
+
+## What is Cryptography?
+
+**Cryptography** is the practice of secure communication between a sender and a recipient. It is most commonly used to obscure the meaning of a message to protect it from unauthorized access.
+
+> Example: When you browse to an HTTPS website, cryptographic protocols ensure that the data exchanged is confidential and secure.
+
+### Key Terms:
+- **Plaintext** – The original readable message (e.g., a document or communication).
+- **Ciphertext** – The encrypted (unreadable) version of the plaintext.
+
+---
+
+## Encryption in Cybersecurity
+
+**Encryption** is the process of converting plaintext into ciphertext using an encryption algorithm and key.
+
+### Decryption
+The reverse process — converting ciphertext back into plaintext — requires a decryption key.
+
+> Encryption and decryption work together using encryption keys to maintain confidentiality and data integrity.
+
+### Key Types:
+- **Symmetric Key Encryption**
+- **Asymmetric Key Encryption**
+
+---
+
+### Symmetric Encryption
+
+- Uses the **same secret key** for both encryption and decryption.
+- Known as **private key encryption**.
+- Fast and efficient but requires a secure method to share the key between sender and receiver.
+
+---
+
+### Asymmetric Encryption
+
+- Uses a **key pair**: a **public key** (shared with others) and a **private key** (kept secret).
+- Messages encrypted with a public key can only be decrypted with its corresponding private key.
+- More secure for exchanging data across untrusted networks.
+
+> 🔐 Example Scenario: A user encrypts a message with a recipient’s public key. Only the recipient’s private key can decrypt it.
+
+---
+
+### Common Encryption Standards
+
+| Standard           | Description                               |
+|--------------------|-------------------------------------------|
+| **DES / 3DES**     | Older symmetric encryption methods         |
+| **AES**            | Industry-standard symmetric encryption     |
+| **RSA**            | Widely used asymmetric encryption          |
+
+---
+
+### Encryption Use Cases
+
+- **Web Browsing** (HTTPS)
+- **Device Encryption**
+- **Messaging Apps** (e.g., Signal, WhatsApp)
+- **Mobile Communications**
+
+---
+
+## Hashing and Digital Signatures
+
+### What is Hashing?
+
+A **hashing algorithm** converts input data into a unique, fixed-length string (hash value). This process is:
+- One-way (not reversible)
+- Deterministic (same input always produces the same output)
+
+Used to ensure data integrity — even the slightest change to the original input will result in a different hash.
+
+---
+
+### What is a Digital Signature?
+
+A **digital signature** is a cryptographic technique used to verify the authenticity and integrity of a message, document, or software.
+
+- Uses **asymmetric encryption**.
+- Ensures the message was created by the sender (authenticity).
+- Confirms the message was not altered (integrity).
+
+---
+
+### Digital Signing with Asymmetric Keys
+
+A digital signature uses:
+- A **private key** to sign the message
+- A **public key** to verify the signature
+
+> Each digital signature is **unique to the sender** and cannot be forged without the private key.
+
+---
+
+## Digital Certificates
+
+### What is a Digital Certificate?
+
+A **digital certificate** is a digital credential issued by a trusted **Certificate Authority (CA)**. It verifies the identity of the certificate holder (individual, system, or organization).
+
+### Certificate Request Process
+1. The entity submits a certificate signing request (CSR) to a CA.
+2. The CA verifies the identity.
+3. If valid, the CA issues a certificate tied to the entity’s public key.
+
+---
+
+### Why We Need Digital Certificates
+
+Digital certificates help protect against:
+- Message tampering
+- Man-in-the-middle attacks
+- Identity spoofing
+
+They ensure that messages are being sent and received by trusted parties.
+
+---
