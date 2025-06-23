@@ -1,1 +1,51 @@
+# 03 - Describe the data compliance solutions of Microsoft Purview 
 
+## Overview
+
+Microsoft Purview provides tools to help organizations manage compliance risks and meet regulatory requirements. These solutions help classify data, detect violations, respond to regulatory inquiries, and ensure adherence to legal obligations.
+
+---
+
+##   Data Lifecycle Management
+
+- Ensures data is retained or deleted based on policies and regulations.
+- Automatically applies retention labels and policies to emails, files, and Teams messages.
+- Supports proof of deletion and regulatory hold features.
+
+---
+
+##   Records Management
+
+- Allows organizations to declare content as a record to meet legal and compliance requirements.
+- Once declared, records cannot be altered or deleted without proper authorization.
+- Useful for maintaining audit trails and defensible deletion processes.
+
+---
+
+##   Compliance Manager
+
+- Centralized dashboard to manage compliance scores and regulatory obligations.
+- Maps Microsoft controls to common regulations (e.g., GDPR, HIPAA, ISO 27001).
+- Suggests improvement actions and tracks implementation progress.
+
+---
+
+##   eDiscovery (Standard & Premium)
+
+- Enables legal teams to find and preserve content relevant to investigations or legal matters.
+- **Standard eDiscovery**: Basic search, hold, and export.
+- **Premium eDiscovery**: Adds integrated workflows, machine learning (relevance), and legal review tools.
+
+---
+
+##   Audit (Standard & Premium)
+
+- Tracks user and admin activities across Microsoft 365.
+- **Standard**: Basic audit logs for common activities.
+- **Premium**: Extended retention (up to 1 year), deeper insights, and critical event tracking.
+
+---
+
+## Summary
+
+Microsoft Purview’s data compliance tools give organizations control over how data is managed, retained, and audited. By combining lifecycle policies, records management, audit logs, and eDiscovery, organizations can meet legal and regulatory requirements with confidence.
