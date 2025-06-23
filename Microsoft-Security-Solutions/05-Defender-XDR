@@ -1,1 +1,45 @@
+# 05 - Describe threat protection with Microsoft Defender XDR
 
+## Overview
+
+Microsoft Defender XDR (Extended Detection and Response) is a unified threat protection solution designed to detect, investigate, and respond to threats across multiple Microsoft services. It integrates telemetry from Microsoft Defender for Endpoint, Office 365, Identity, Cloud Apps, and more.
+
+---
+
+##   What is XDR?
+
+- **Extended Detection and Response (XDR)** is a security solution that collects and correlates data across multiple security products.
+- Provides a single interface for detecting, analyzing, and responding to threats across devices, identities, emails, applications, and data.
+
+---
+
+##   Defender XDR Components
+
+- **Microsoft Defender for Endpoint**: Protects endpoints from malware, exploits, and advanced threats.
+- **Microsoft Defender for Office 365**: Protects against phishing, business email compromise, and malicious attachments.
+- **Microsoft Defender for Identity**: Detects identity-based threats using signals from Active Directory.
+- **Microsoft Defender for Cloud Apps**: Provides visibility and control over SaaS usage (CASB).
+- **Microsoft Defender for Cloud**: Cloud security posture management and threat protection for Azure and hybrid environments.
+
+---
+
+##   Capabilities
+
+- **Incident Correlation**: Aggregates alerts from multiple sources into a single incident view.
+- **Automated Investigation and Response (AIR)**: Uses AI to triage and remediate threats automatically.
+- **Threat Analytics**: Insights into emerging threats, including techniques and impacted systems.
+- **Hunting and Custom Queries**: Security analysts can hunt for threats using built-in query tools.
+
+---
+
+##   Benefits
+
+- **Unified Threat Protection**: Centralized management and correlation of security events across domains.
+- **Improved SOC Efficiency**: Reduces alert fatigue and improves response time.
+- **Built-in Automation**: Helps organizations scale their security operations without adding headcount.
+
+---
+
+## Summary
+
+Microsoft Defender XDR enables organizations to stay ahead of threats by providing integrated protection and visibility across their digital estate. It plays a key role in modern SOC strategies by delivering cross-domain detection and response.
