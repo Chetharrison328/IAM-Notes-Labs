@@ -1,1 +1,69 @@
+# 02 - Describe Core Infrastructure Security Services in Azure
 
+## Overview
+
+Azure provides a wide range of infrastructure-level security services to protect resources, monitor traffic, and enforce policies across your cloud environment.
+
+---
+
+## Key Services and Concepts
+
+###   Azure DDoS Protection
+
+- Protects Azure-hosted applications from Distributed Denial of Service (DDoS) attacks.
+- Monitors traffic in real-time and automatically mitigates threats.
+- Two tiers: Basic (automatic) and Standard (custom policies, alerts, mitigation reports).
+
+---
+
+###   Azure Firewall
+
+- A stateful, fully managed network security service.
+- Central control over outbound and inbound traffic via rules.
+- Supports threat intelligence-based filtering, logging, and integration with other Azure services.
+
+---
+
+###   Azure Web Application Firewall (WAF)
+
+- Protects web applications from common threats like SQL injection and XSS.
+- Integrated with Azure Application Gateway, Front Door, and CDN.
+- Uses OWASP Core Rule Sets (CRS) to define protection rules.
+
+---
+
+###   Network Security Groups (NSGs)
+
+- Controls inbound and outbound traffic at the subnet and network interface level.
+- Uses security rules (allow/deny) to enforce access policies.
+- Simple but powerful method of segmentation in Azure networks.
+
+---
+
+###   Network Segmentation
+
+- Strategy to divide a network into isolated segments.
+- Limits the blast radius of attacks by minimizing lateral movement.
+- Achieved using subnets, NSGs, firewalls, and private endpoints.
+
+---
+
+###   Azure Bastion
+
+- Provides secure and seamless RDP/SSH connectivity to Azure VMs without exposing them to the public internet.
+- Fully managed and integrated with the Azure portal.
+- Eliminates the need for jump servers and open ports on VMs.
+
+---
+
+###   Azure Key Vault
+
+- Safeguards cryptographic keys, secrets, and certificates.
+- Centralized management for secrets (API keys, passwords, connection strings).
+- Supports auditing, RBAC, and integration with Azure services for secure deployments.
+
+---
+
+## Summary
+
+These Azure infrastructure security services help build a secure, scalable, and resilient cloud environment. By combining NSGs, firewalls, Bastion, and Key Vault, organizations can enforce Zero Trust principles and protect against evolving threats.
