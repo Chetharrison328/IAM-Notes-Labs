@@ -1,1 +1,51 @@
+# 04 - Describe the data governance solutions of Microsoft Purview
 
+## Overview
+
+Data governance is the process of managing the availability, usability, integrity, and security of data in enterprise systems. Microsoft Purview provides solutions to establish policies, roles, and responsibilities to ensure data is trustworthy and properly managed.
+
+---
+
+##   Data Catalog and Classification
+
+- Centralizes metadata to create a unified data catalog.
+- Enables data discovery and lineage tracking.
+- Uses classifiers and scanners to automatically tag and classify data assets.
+
+---
+
+##   Policy Management
+
+- Allows creation and enforcement of data policies across data estates.
+- Supports access controls, retention policies, and data sharing rules.
+- Integrates with Microsoft Information Protection labels and enforcement mechanisms.
+
+---
+
+##   Roles and Responsibilities
+
+- Defines data owners, stewards, and custodians to govern data effectively.
+- Provides workflows and tools for policy approvals and issue resolution.
+- Enables collaboration between IT, compliance, and business units.
+
+---
+
+##   Data Lineage and Impact Analysis
+
+- Tracks data movement and transformations across systems.
+- Helps understand the impact of changes and data dependencies.
+- Assists in audits and troubleshooting data quality issues.
+
+---
+
+##   Reporting and Insights
+
+- Provides dashboards and reports to monitor compliance and governance health.
+- Helps identify gaps and risks in data management practices.
+- Supports continuous improvement of governance programs.
+
+---
+
+## Summary
+
+Microsoft Purview’s data governance solutions enable organizations to implement effective data stewardship by combining cataloging, policy enforcement, role management, and monitoring. This fosters trust in data and helps ensure compliance with internal and external requirements.
