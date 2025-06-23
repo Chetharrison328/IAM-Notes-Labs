@@ -1,1 +1,50 @@
+# 03 - Describe the Security Management capabilities in Azure
 
+## Overview
+
+Azure provides a range of security management capabilities to monitor, assess, and protect cloud resources. These services help enforce compliance, reduce risk, and ensure a secure cloud environment.
+
+---
+
+##   Microsoft Defender for Cloud
+
+### Purpose:
+- A unified security management system that provides advanced threat protection across hybrid cloud workloads.
+
+### Capabilities:
+- **Continuous Security Assessment**: Evaluates configurations and provides security recommendations.
+- **Secure Score**: A measurable security posture rating based on compliance with best practices.
+- **Threat Protection**: Detects and alerts on threats across Azure, on-premises, and hybrid environments.
+- **Regulatory Compliance Dashboard**: Tracks compliance with standards like ISO, NIST, and Azure-specific benchmarks.
+
+---
+
+##   Microsoft Defender Plans
+
+- **Defender for Servers**: Threat detection, endpoint protection, and vulnerability assessment.
+- **Defender for SQL**: Security alerts for SQL databases and threat detection.
+- **Defender for Key Vault**, **Storage**, **Containers**, etc.: Adds advanced security analytics and monitoring for specific resources.
+
+---
+
+##   Recommendations and Secure Score
+
+- Recommendations are prioritized by potential impact.
+- Secure Score reflects how well your environment is aligned with Microsoft security best practices.
+- Improving your score helps reduce the attack surface.
+
+---
+
+##   Compliance and Risk Reporting
+
+- Built-in compliance standards like:
+  - Azure Security Benchmark
+  - NIST 800-53
+  - ISO 27001
+- Helps orgs demonstrate compliance during audits and security assessments.
+
+---
+
+## Summary
+
+Azure's security management tools help organizations detect vulnerabilities, monitor threats, and continuously improve their security posture. Microsoft Defender for Cloud, Secure Score, and compliance dashboards are essential for maintaining a strong, proactive defense.
