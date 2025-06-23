@@ -1,1 +1,63 @@
+# 04 - Describe security capabilities of Microsoft Sentinel
 
+## Overview
+
+Microsoft Sentinel is a scalable, cloud-native Security Information and Event Management (SIEM) and Security Orchestration Automated Response (SOAR) solution. It enables proactive threat detection, investigation, and response across an enterprise.
+
+---
+
+##   Key Capabilities
+
+###   Cloud-Native SIEM and SOAR
+
+- **SIEM**: Collects and analyzes security data from multiple sources in real-time.
+- **SOAR**: Automates and orchestrates threat response workflows to reduce manual effort.
+
+---
+
+###   Data Collection
+
+- Supports integration with Microsoft 365 Defender, Azure AD, Microsoft Defender for Cloud, and third-party solutions.
+- Uses connectors to ingest logs, events, and alerts from a wide variety of sources.
+
+---
+
+###   Workbooks and Dashboards
+
+- Visualize data with prebuilt or custom dashboards.
+- Helps security teams monitor alerts, trends, and incidents in real-time.
+
+---
+
+###   Analytics and Detection Rules
+
+- Built-in and custom analytics rules trigger alerts when suspicious activity is detected.
+- Uses scheduled queries and machine learning models to detect threats.
+
+---
+
+###   Incidents and Investigation
+
+- Sentinel groups related alerts into incidents for easier investigation.
+- Analysts can drill down into incident details and timeline to understand attacker behavior.
+
+---
+
+###   Automated Response
+
+- Uses playbooks built in Azure Logic Apps to automate response actions.
+- Examples: Blocking IPs, disabling accounts, sending alerts, or notifying SOC teams.
+
+---
+
+##   Benefits
+
+- **Scalability**: Cloud-based, scales with your environment without infrastructure management.
+- **Integration**: Seamless with Microsoft ecosystem and supports non-Microsoft sources.
+- **Proactive Security**: Detects threats early and helps teams respond quickly.
+
+---
+
+## Summary
+
+Microsoft Sentinel empowers security teams with advanced SIEM and SOAR capabilities, enabling faster threat detection, investigation, and automated response. It is essential for modern security operations in hybrid and cloud-first environments.
