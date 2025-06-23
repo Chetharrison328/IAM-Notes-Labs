@@ -1,1 +1,59 @@
+# 02 - Describe the data security solutions of Microsoft Purview
 
+## Overview
+
+Microsoft Purview offers data security solutions to help organizations classify, label, protect, and monitor sensitive data across Microsoft 365 and beyond. These capabilities enable enforcement of information protection policies that align with regulatory and organizational needs.
+
+---
+
+##   Sensitivity Labels
+
+- Used to classify and protect data based on its sensitivity level.
+- Can apply encryption, watermarks, visual markings, and access restrictions.
+- Can be applied manually by users or automatically via policies and conditions.
+
+---
+
+##   Information Protection
+
+- Part of Microsoft Purview's compliance and data protection suite.
+- Helps protect content in Microsoft 365 (emails, files, Teams chats).
+- Enforced by Microsoft Information Protection (MIP) SDK across services.
+
+---
+
+##   Content Classification
+
+- Uses built-in or custom classifiers to identify sensitive content.
+- Includes trainable classifiers, exact data match (EDM), and sensitive info types (e.g., SSNs, credit cards).
+- Supports automated labeling and data governance rules.
+
+---
+
+##   Data Loss Prevention (DLP)
+
+- Prevents unauthorized sharing, movement, or exposure of sensitive data.
+- Policies can be created for Microsoft 365 apps, Teams, endpoints, and cloud apps.
+- Supports alerting, user notifications, and customizable response actions.
+
+---
+
+##   Insider Risk Management
+
+- Detects risky user behavior that could indicate potential data leaks or abuse.
+- Leverages signals from Microsoft 365 apps, Teams, Defender, and HR systems.
+- Helps security teams take action before incidents escalate.
+
+---
+
+##   Adaptive Protection
+
+- Uses risk-based insights to adjust protection levels in real-time.
+- Integrates with Insider Risk Management and DLP.
+- Automatically increases protection based on user behavior and context.
+
+---
+
+## Summary
+
+Microsoft Purview’s data security solutions provide robust classification, labeling, protection, and monitoring of sensitive information. These tools help enforce compliance, reduce insider risk, and secure data throughout its lifecycle.
