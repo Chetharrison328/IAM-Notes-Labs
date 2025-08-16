@@ -1,1 +1,30 @@
+# : Perform Basic Identity & Access Tasks
 
+## Title
+Create, Configure, & Manage Identities exercises
+
+---
+
+## Exercise 1: – Assign Licenses to Users
+1. Created a new user in Microsoft Entra ID.
+2. Created a security group in Microsoft Entra ID.
+3. Assigned a license to the group.
+
+---
+
+## Exercise 2: – Restore or Remove Deleted Users
+1. Removed a user from Microsoft Entra ID.
+2. Restored a deleted user.
+
+---
+
+## Exercise 3:– Add Groups in Microsoft Entra ID
+- Created a Microsoft 365 Group.
+
+---
+
+## Exercise 4: – Change Group License Assignments
+- Assigned licenses via M365 Admin Center.
+- Verified assignments in both Admin Center and Azure.
+
+---
