@@ -18,13 +18,20 @@ Create, Configure, & Manage Identities exercises
 
 ---
 
-## Exercise 3:– Add Groups in Microsoft Entra ID
-- Created a Microsoft 365 Group.
+## Exercise 3: – Add Groups in Microsoft Entra ID
+1. Created a Microsoft 365 Group.
 
 ---
 
 ## Exercise 4: – Change Group License Assignments
-- Assigned licenses via M365 Admin Center.
-- Verified assignments in both Admin Center and Azure.
+1. Assigned licenses via M365 Admin Center.
+2.  Verified assignments in both Admin Center and Azure.
+
+---
+
+## Exercise 5: - Change User License Assignments
+
+1. Create a new user in Microsoft Entra ID
+2. Update user license agreements
 
 ---
